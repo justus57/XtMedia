@@ -7,7 +7,7 @@
     tools:context=".MainActivity"
     android:id ="@+id/drawerlayout"
     >
-    <include
+    <include android:id="@+id/LAY"
     layout="@layout/content_main" />
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
